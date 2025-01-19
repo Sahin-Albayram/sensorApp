@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		576D17712D3D657D004ADF77 /* DataCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576D17702D3D657D004ADF77 /* DataCollectionView.swift */; };
+		576D17752D3DA178004ADF77 /* ScoscheSDK24.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576D17742D3DA178004ADF77 /* ScoscheSDK24.xcframework */; };
+		57D9E1772CC83847001F9F57 /* HeartbeatChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D9E1762CC83847001F9F57 /* HeartbeatChartView.swift */; };
+		57D9E1792CC8386D001F9F57 /* HeartbeatStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D9E1782CC8386D001F9F57 /* HeartbeatStatsView.swift */; };
+		57D9E17B2CC839B6001F9F57 /* DeviceSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D9E17A2CC839B6001F9F57 /* DeviceSelectionView.swift */; };
+		57D9E17D2CC83DBB001F9F57 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D9E17C2CC83DBB001F9F57 /* BluetoothManager.swift */; };
+		57D9E1802CC83E56001F9F57 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D9E17F2CC83E56001F9F57 /* CoreBluetooth.framework */; };
+		57F870212C66146F00F98A92 /* sensorAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F870202C66146F00F98A92 /* sensorAppApp.swift */; };
+		57F870232C66146F00F98A92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F870222C66146F00F98A92 /* ContentView.swift */; };
+		57F870252C66147100F98A92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F870242C66147100F98A92 /* Assets.xcassets */; };
+		57F870282C66147100F98A92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F870272C66147100F98A92 /* Preview Assets.xcassets */; };
+		57F870322C66147100F98A92 /* sensorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F870312C66147100F98A92 /* sensorAppTests.swift */; };
+		57F8703C2C66147100F98A92 /* sensorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F8703B2C66147100F98A92 /* sensorAppUITests.swift */; };
+		57F8703E2C66147100F98A92 /* sensorAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F8703D2C66147100F98A92 /* sensorAppUITestsLaunchTests.swift */; };
+		57F8704B2C66185900F98A92 /* HeartbeatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F8704A2C66185900F98A92 /* HeartbeatData.swift */; };
+		57F8704D2C66187700F98A92 /* HeartbeatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F8704C2C66187700F98A92 /* HeartbeatViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57F8702E2C66147100F98A92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F870152C66146F00F98A92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F8701C2C66146F00F98A92;
+			remoteInfo = sensorApp;
+		};
+		57F870382C66147100F98A92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F870152C66146F00F98A92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F8701C2C66146F00F98A92;
+			remoteInfo = sensorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		576D17702D3D657D004ADF77 /* DataCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionView.swift; sourceTree = "<group>"; };
+		576D17742D3DA178004ADF77 /* ScoscheSDK24.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ScoscheSDK24.xcframework; path = ../ScoscheSDK24/ScoscheSDK24.xcframework; sourceTree = "<group>"; };
+		57D9E1762CC83847001F9F57 /* HeartbeatChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartbeatChartView.swift; sourceTree = "<group>"; };
+		57D9E1782CC8386D001F9F57 /* HeartbeatStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartbeatStatsView.swift; sourceTree = "<group>"; };
+		57D9E17A2CC839B6001F9F57 /* DeviceSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSelectionView.swift; sourceTree = "<group>"; };
+		57D9E17C2CC83DBB001F9F57 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		57D9E17F2CC83E56001F9F57 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		57F8701D2C66146F00F98A92 /* sensorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sensorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F870202C66146F00F98A92 /* sensorAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sensorAppApp.swift; sourceTree = "<group>"; };
+		57F870222C66146F00F98A92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		57F870242C66147100F98A92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57F870272C66147100F98A92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57F8702D2C66147100F98A92 /* sensorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sensorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F870312C66147100F98A92 /* sensorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sensorAppTests.swift; sourceTree = "<group>"; };
+		57F870372C66147100F98A92 /* sensorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sensorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F8703B2C66147100F98A92 /* sensorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sensorAppUITests.swift; sourceTree = "<group>"; };
+		57F8703D2C66147100F98A92 /* sensorAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sensorAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57F8704A2C66185900F98A92 /* HeartbeatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartbeatData.swift; sourceTree = "<group>"; };
+		57F8704C2C66187700F98A92 /* HeartbeatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartbeatViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57F8701A2C66146F00F98A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576D17752D3DA178004ADF77 /* ScoscheSDK24.xcframework in Frameworks */,
+				57D9E1802CC83E56001F9F57 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F8702A2C66147100F98A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F870342C66147100F98A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57D9E17E2CC83E56001F9F57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				576D17742D3DA178004ADF77 /* ScoscheSDK24.xcframework */,
+				57D9E17F2CC83E56001F9F57 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57F870142C66146F00F98A92 = {
+			isa = PBXGroup;
+			children = (
+				57F8701F2C66146F00F98A92 /* sensorApp */,
+				57F870302C66147100F98A92 /* sensorAppTests */,
+				57F8703A2C66147100F98A92 /* sensorAppUITests */,
+				57F8701E2C66146F00F98A92 /* Products */,
+				57D9E17E2CC83E56001F9F57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57F8701E2C66146F00F98A92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57F8701D2C66146F00F98A92 /* sensorApp.app */,
+				57F8702D2C66147100F98A92 /* sensorAppTests.xctest */,
+				57F870372C66147100F98A92 /* sensorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57F8701F2C66146F00F98A92 /* sensorApp */ = {
+			isa = PBXGroup;
+			children = (
+				57F870202C66146F00F98A92 /* sensorAppApp.swift */,
+				57F870222C66146F00F98A92 /* ContentView.swift */,
+				57F870242C66147100F98A92 /* Assets.xcassets */,
+				57F870262C66147100F98A92 /* Preview Content */,
+				57F8704A2C66185900F98A92 /* HeartbeatData.swift */,
+				57F8704C2C66187700F98A92 /* HeartbeatViewModel.swift */,
+				57D9E1762CC83847001F9F57 /* HeartbeatChartView.swift */,
+				57D9E1782CC8386D001F9F57 /* HeartbeatStatsView.swift */,
+				57D9E17A2CC839B6001F9F57 /* DeviceSelectionView.swift */,
+				57D9E17C2CC83DBB001F9F57 /* BluetoothManager.swift */,
+				576D17702D3D657D004ADF77 /* DataCollectionView.swift */,
+			);
+			path = sensorApp;
+			sourceTree = "<group>";
+		};
+		57F870262C66147100F98A92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				57F870272C66147100F98A92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57F870302C66147100F98A92 /* sensorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				57F870312C66147100F98A92 /* sensorAppTests.swift */,
+			);
+			path = sensorAppTests;
+			sourceTree = "<group>";
+		};
+		57F8703A2C66147100F98A92 /* sensorAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57F8703B2C66147100F98A92 /* sensorAppUITests.swift */,
+				57F8703D2C66147100F98A92 /* sensorAppUITestsLaunchTests.swift */,
+			);
+			path = sensorAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57F8701C2C66146F00F98A92 /* sensorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F870412C66147100F98A92 /* Build configuration list for PBXNativeTarget "sensorApp" */;
+			buildPhases = (
+				57F870192C66146F00F98A92 /* Sources */,
+				57F8701A2C66146F00F98A92 /* Frameworks */,
+				57F8701B2C66146F00F98A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sensorApp;
+			productName = sensorApp;
+			productReference = 57F8701D2C66146F00F98A92 /* sensorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57F8702C2C66147100F98A92 /* sensorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F870442C66147100F98A92 /* Build configuration list for PBXNativeTarget "sensorAppTests" */;
+			buildPhases = (
+				57F870292C66147100F98A92 /* Sources */,
+				57F8702A2C66147100F98A92 /* Frameworks */,
+				57F8702B2C66147100F98A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F8702F2C66147100F98A92 /* PBXTargetDependency */,
+			);
+			name = sensorAppTests;
+			productName = sensorAppTests;
+			productReference = 57F8702D2C66147100F98A92 /* sensorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57F870362C66147100F98A92 /* sensorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F870472C66147100F98A92 /* Build configuration list for PBXNativeTarget "sensorAppUITests" */;
+			buildPhases = (
+				57F870332C66147100F98A92 /* Sources */,
+				57F870342C66147100F98A92 /* Frameworks */,
+				57F870352C66147100F98A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F870392C66147100F98A92 /* PBXTargetDependency */,
+			);
+			name = sensorAppUITests;
+			productName = sensorAppUITests;
+			productReference = 57F870372C66147100F98A92 /* sensorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57F870152C66146F00F98A92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					57F8701C2C66146F00F98A92 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					57F8702C2C66147100F98A92 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 57F8701C2C66146F00F98A92;
+					};
+					57F870362C66147100F98A92 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 57F8701C2C66146F00F98A92;
+					};
+				};
+			};
+			buildConfigurationList = 57F870182C66146F00F98A92 /* Build configuration list for PBXProject "sensorApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57F870142C66146F00F98A92;
+			productRefGroup = 57F8701E2C66146F00F98A92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57F8701C2C66146F00F98A92 /* sensorApp */,
+				57F8702C2C66147100F98A92 /* sensorAppTests */,
+				57F870362C66147100F98A92 /* sensorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57F8701B2C66146F00F98A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F870282C66147100F98A92 /* Preview Assets.xcassets in Resources */,
+				57F870252C66147100F98A92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F8702B2C66147100F98A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F870352C66147100F98A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57F870192C66146F00F98A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D9E1772CC83847001F9F57 /* HeartbeatChartView.swift in Sources */,
+				57F870232C66146F00F98A92 /* ContentView.swift in Sources */,
+				57D9E17D2CC83DBB001F9F57 /* BluetoothManager.swift in Sources */,
+				576D17712D3D657D004ADF77 /* DataCollectionView.swift in Sources */,
+				57D9E17B2CC839B6001F9F57 /* DeviceSelectionView.swift in Sources */,
+				57F8704B2C66185900F98A92 /* HeartbeatData.swift in Sources */,
+				57F870212C66146F00F98A92 /* sensorAppApp.swift in Sources */,
+				57F8704D2C66187700F98A92 /* HeartbeatViewModel.swift in Sources */,
+				57D9E1792CC8386D001F9F57 /* HeartbeatStatsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F870292C66147100F98A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F870322C66147100F98A92 /* sensorAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F870332C66147100F98A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F8703E2C66147100F98A92 /* sensorAppUITestsLaunchTests.swift in Sources */,
+				57F8703C2C66147100F98A92 /* sensorAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57F8702F2C66147100F98A92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57F8701C2C66146F00F98A92 /* sensorApp */;
+			targetProxy = 57F8702E2C66147100F98A92 /* PBXContainerItemProxy */;
+		};
+		57F870392C66147100F98A92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57F8701C2C66146F00F98A92 /* sensorApp */;
+			targetProxy = 57F870382C66147100F98A92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		57F8703F2C66147100F98A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57F870402C66147100F98A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57F870422C66147100F98A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sensorApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tatilsepeti.sensorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57F870432C66147100F98A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sensorApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tatilsepeti.sensorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57F870452C66147100F98A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tatilsepeti.sensorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sensorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sensorApp";
+			};
+			name = Debug;
+		};
+		57F870462C66147100F98A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tatilsepeti.sensorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sensorApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sensorApp";
+			};
+			name = Release;
+		};
+		57F870482C66147100F98A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tatilsepeti.sensorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sensorApp;
+			};
+			name = Debug;
+		};
+		57F870492C66147100F98A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tatilsepeti.sensorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sensorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57F870182C66146F00F98A92 /* Build configuration list for PBXProject "sensorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F8703F2C66147100F98A92 /* Debug */,
+				57F870402C66147100F98A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F870412C66147100F98A92 /* Build configuration list for PBXNativeTarget "sensorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F870422C66147100F98A92 /* Debug */,
+				57F870432C66147100F98A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F870442C66147100F98A92 /* Build configuration list for PBXNativeTarget "sensorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F870452C66147100F98A92 /* Debug */,
+				57F870462C66147100F98A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F870472C66147100F98A92 /* Build configuration list for PBXNativeTarget "sensorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F870482C66147100F98A92 /* Debug */,
+				57F870492C66147100F98A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57F870152C66146F00F98A92 /* Project object */;
+}
