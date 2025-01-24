@@ -15,21 +15,37 @@ The application is built in Swift for iOS devices. It leverages the ScoscheSDK24
 1. **Device Selection**
    - Scan for Bluetooth devices.
    - Select a Scosche Rhythm 24 or a test device for data collection.
+     <div align="center">
+        <img src="./images/Bluetooth_page.png" alt="Bluetooth selection page" width="250">
+     </div>
 
 2. **Heartbeat Monitoring**
    - Real-time heart rate display.
    - A list of historical heart rate data with timestamps.
-
+<div align="center">
+        <img src="./images/monitor.png" alt="Monitoring page" width="250">
+</div>
 3. **Data Visualization**
    - Line chart representation of the last 10 heart rate data points.
-
+<div align="center">
+        <img src="./images/chart.png" alt="Chart Page" width="250">
+</div>
 4. **Data Collection and Export**
    - Collect heart rate data over a one-minute interval.
    - Save data to a CSV file for analysis.
    - Share the CSV file via file-sharing options.
-
+<div align="center">
+      <img src="./images/collection_screen.png" alt="Collection Screen" width="220">
+      <img src="./images/during_collection.png" alt="During Collection" width="220">
+      <img src="./images/after_collection.png" alt="After Collection" width="220">
+      <img src="./images/share_screen.png" alt="Share Screen" width="220">
+   
+</div>
 5. **Statistical Analysis**
    - Calculate mean, standard deviation, maximum, and minimum heart rates for the last 10 data points.
+<div align="center">
+        <img src="./images/statistics.png" alt="Statistic Page" width="250">
+</div>
 
 ---
 
